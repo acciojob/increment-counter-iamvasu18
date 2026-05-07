@@ -3,5 +3,6 @@ let count=0;
 let display=document.getElementById("counter");
 let button=document.getElementById("incrementBtn");
 button.onclick=()=>{
-display.count++;
+count++;
+display.innerText=count;
 }
